@@ -224,11 +224,14 @@ header{
     width: 60%;
     margin: 100px 20%;
 }
+.subscribe{
+    width: 90%;
+}
 .subscribe > p{
     font-size: 16px;
     color: #42495B;
     max-width: 450px;
-    width: 100%;
+    width: 90%;
     margin: -20px auto 20px auto;
 }
 .btn-color{
@@ -253,7 +256,7 @@ header{
 /*contact page*/
 .contact-div{
     max-width: 80%;
-    margin: 200px auto 50px auto;
+    margin: 200px auto 70px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
