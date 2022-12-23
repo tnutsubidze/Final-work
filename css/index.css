@@ -117,11 +117,8 @@ header{
     width: 300px;
     height: 270px;
     margin: 0 auto;
-    transition: 0.5s;
 }
-.img-size:hover{
 
-}
 /*css for gallery page*/
 .pages{
     margin-top: 200px;
@@ -141,6 +138,9 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+.shop-img-top-div:hover{
+    transform: scale(1.05,1.05);
 }
 .shop-img-div{
     margin-bottom: 80px;
