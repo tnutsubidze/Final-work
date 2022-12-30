@@ -113,7 +113,7 @@ header{
     width: 25%;
 }
 .gallery-div{
-    max-width: 1300px;
+    max-width: 1600px;
     width: 90%;
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
