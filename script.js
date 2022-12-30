@@ -1,6 +1,6 @@
- let navigationElement = document.getElementById('navBar');
- let headerLogoElement = document.getElementById('toggleBar');
+ let navigationElement = document.getElementById("navBar");
+ let headerBarElement = document.getElementById("toggleBar");
 
- navigationElement.addEventListener('click',function(){
-     headerLogoElement.classList.toggle('active');
- })
+ headerBarElement.addEventListener("click",function(){
+     navigationElement.classList.toggle("active");
+ });

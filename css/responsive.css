@@ -1,13 +1,30 @@
+@media (max-width: 1120px){
+    .input-text,
+    .order-text,
+    .order-title{
+        margin-bottom: 5px;
+    }
+    .order-div-right{
+        padding-top: 30px;
+    }
+}
 @media (max-width: 768px) {
+    .order-text,
+    .order-title{
+        margin-bottom: 26px;
+    }
+    .order-div{
+        height: 800px;
+    }
     .header-icon,
-    .header-nav{
+    .navigation{
         display: none;
     }
     .header-div2{
         width: 100%;
         flex-direction: column;
     }
-    .header-bar{
+    .headerBar{
         display: block;
         width: 50px;
     }
@@ -35,6 +52,12 @@
     }
     .header-nav{
         flex-direction: column;
+        align-items: flex-start;
+        margin-left: 20px;
+
+    }
+    li{
+        margin-bottom: 10px;
     }
 }
 @media (max-width: 550px) {
@@ -63,7 +86,7 @@
     }
     .input-style{
         width: 100%;
-        margin: 0 auto;
+        margin: 5px auto;
     }
     .input-icon i{
         right: 5%;
@@ -78,9 +101,7 @@
     .shop-img-top-div:hover{
         transform: scale(1,1);
     }
-
 }
-
 @media (max-width: 480px) {
     .home-page-left{
         left: 20px;
@@ -92,13 +113,12 @@
     .footer-div > div:nth-child(3){
         margin-right: 10px;
     }
-    .header-bar{
+    .headerBar{
         left: 10px;
     }
     .header-div1{
         width: 90%;
     }
-
 }
 @media (max-width: 400px) {
     .header-div2{
