@@ -1,5 +1,3 @@
-@media (max-width: 1024px) {
-}
 @media (max-width: 768px) {
     .header-icon,
     .header-nav{
@@ -7,6 +5,7 @@
     }
     .header-div2{
         width: 100%;
+        flex-direction: column;
     }
     .header-bar{
         display: block;
@@ -31,6 +30,13 @@
     .map-div{
         width: 100%;
     }
+    .navigation.active{
+        display: block;
+    }
+    .header-nav{
+        flex-direction: column;
+    }
+
 }
 @media (max-width: 550px) {
     .home-page-left{
@@ -93,7 +99,7 @@
     .header-div2{
         margin: 0 10px;
     }
-    .header-logo{
+    .headerLogo{
         justify-content: right;
     }
 }

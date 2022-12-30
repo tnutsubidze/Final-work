@@ -41,7 +41,7 @@ header{
 .fa-instagram{
     margin: 30px 0;
 }
-.header-logo{
+.headerLogo{
     display: flex;
     justify-content: center;
 }
@@ -91,6 +91,9 @@ header{
     max-width: 400px;
     width: 100%;
 }
+.home-page{
+    margin-bottom: 100px;
+}
 .home-page-right{
     display: inline-flex;
     margin: 0;
@@ -104,7 +107,7 @@ header{
     text-align: center;
     color: #42495B;
     font-size: 32px;
-    margin: 50px auto;
+    margin: 100px auto;
 }
 .solid{
     width: 25%;
@@ -135,9 +138,11 @@ header{
     text-align: center;
     color: #42495B;
     font-size: 32px;
-    margin: 50px auto;
+    margin: 100px auto;
 }
 .shop-div-wraper{
+    max-width: 1500px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -146,7 +151,10 @@ header{
     transform: scale(1.05,1.05);
 }
 .shop-img-div{
-    margin-bottom: 80px;
+    margin: 0 auto 80px auto;
+    width: 25%;
+    min-width: 300px;
+
 }
 .shop-img-bottom-div{
     width: 290px;
@@ -166,7 +174,7 @@ header{
     text-align: center;
     color: #42495B;
     font-size: 32px;
-    margin: 50px auto;
+    margin: 100px auto;
 }
 .order-div{
     max-width: 1920px;
