@@ -189,6 +189,7 @@ header{
 .order-div-img{
     width: 50%;
     max-height: 451px;
+    object-fit: cover;
 }
 .order-img{
     width: 100%;
