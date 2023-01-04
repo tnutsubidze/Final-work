@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 /*variables*/
 :root{
 
@@ -16,7 +23,11 @@ header{
 .header-div1{
     width: 80%;
     margin: 10px auto 10px auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     position: relative;
 }
@@ -25,7 +36,12 @@ header{
 }
 .header-icon{
     width: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
 .headerBar{
@@ -42,17 +58,29 @@ header{
     margin: 30px 0;
 }
 .headerLogo{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 .header-div2{
     margin: 0 auto 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
 .header-nav{
     width: 700px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -76,6 +104,8 @@ a{
     width: 100%;
     height: 100%;
     display: block;
+    background: -webkit-gradient(linear, left top, right top, color-stop(33%, rgba(255,255,255,1)),color-stop(94%, rgba(255,255,255,0)));
+    background: -o-linear-gradient(left, rgba(255,255,255,1) 33%,rgba(255,255,255,0) 94%);
     background: linear-gradient(to right, rgba(255,255,255,1) 33%,rgba(255,255,255,0) 94%);
 }
 .home-page-left{
@@ -104,6 +134,8 @@ a{
     margin-bottom: 100px;
 }
 .home-page-right{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
     margin: 0;
 }
@@ -126,7 +158,10 @@ a{
 .gallery-div{
     max-width: 1600px;
     width: 90%;
+    display: -ms-grid;
     display: grid;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
     gap: 20px;
@@ -136,6 +171,7 @@ a{
     width: 300px;
     height: 270px;
     margin: 0 auto;
+    -o-object-fit: cover;
     object-fit: cover;
 }
 
@@ -158,11 +194,18 @@ a{
 .shop-div-wraper{
     width: 90%;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 .shop-img-top-div:hover{
+    -webkit-transform: scale(1.05,1.05);
+    -ms-transform: scale(1.05,1.05);
     transform: scale(1.05,1.05);
 }
 .shop-img-div{
@@ -201,7 +244,12 @@ a{
     max-width: 1920px;
     width: 100%;
     height: 451px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
     background-color: #F9E7E7;
     margin-bottom: 10px;
@@ -209,6 +257,7 @@ a{
 .order-div-img{
     width: 50%;
     max-height: 451px;
+    -o-object-fit: cover;
     object-fit: cover;
 }
 .order-img{
@@ -247,6 +296,26 @@ a{
     height: 35px;
     margin: 5px 10% 0 10%;
     color: #42495B;
+}
+.input-style::-webkit-input-placeholder{
+    color: #42495B;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.input-style::-moz-placeholder{
+    color: #42495B;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.input-style:-ms-input-placeholder{
+    color: #42495B;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.input-style::-ms-input-placeholder{
+    color: #42495B;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
 }
 .input-style::placeholder{
     color: #42495B;
@@ -306,8 +375,15 @@ a{
 .contact-div{
     max-width: 80%;
     margin: 200px auto 70px auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 .contact-div p{
@@ -340,7 +416,6 @@ footer p{
     margin-bottom: 15px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-
 }
 footer a{
     color: #42495B;
@@ -357,12 +432,15 @@ footer li{
     max-width: 1080px;
     width: 100%;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     padding-top: 40px;
 }
-
-
-
-
