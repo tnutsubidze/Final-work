@@ -31,12 +31,13 @@
         width: 100%;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
     }
     .headerBar{
         display: block;
-        width: 50px;
     }
     .order-div{
         -webkit-box-orient: vertical;
@@ -133,7 +134,7 @@
 }
 @media (max-width: 480px) {
     .home-page-left{
-        left: 20px;
+        left: 10px;
         width: 300px;
     }
     .footer-div > div:nth-child(2){
